@@ -36,3 +36,42 @@
  ![主界面](http://q59jhs5xi.bkt.clouddn.com/bihu.jpg)
  
  可以发布问题，修改密码
+ 
+ 
+---
+### 主要技术
+- 图灵机器人
+
+参考官方文档实现聊天
+- Recyclerview
+  
+在主界面，聊天界面，联系人，逼乎中使用到recyclerview
+- 约束布局
+
+逼乎中recyclerview的item使用了约束布局
+- Fragment
+
+OQ主界面由3个Fragment实现
+- 七牛云
+  
+参考官方文档实现了上传图片
+- 自定义imageview
+
+参考https://www.jianshu.com/p/6beca370fd50 实现了圆形imageview
+- 存储
+
+使用了sharepreference保存用户名，密码，头像图片，聊天记录，实现记住密码和自动登录，同时使用了七牛云保存头像图片
+- 网络请求及json解析
+
+在OQ中全部使用Android原生网络请求和解析，在逼乎中出于测试使用了okhttp3进行网络请求，使用Android原生解析
+
+---
+### 心得体会
+- 这次寒假考核写了十多天，让我对Android开发从略显生疏到了较为熟悉，曾经头疼不已的recyclerview的适配器也可以熟练掌握了，其他一些不熟悉的控件通过查询资料等方式也成功使用，对网络请求和json解析更进一步，我认为是对我的一次全方位的提升。
+
+
+### 主要碰到的问题
+- 一开始是recyclerview的使用，然后是图灵机器人的接入，获取图片的uri，还有过多使用sharepreference导致APP经常卡顿，复杂JSON解析的问题。
+
+---
+## 在此期间，我多次碰到直接不会的地方和难以解决的bug，感谢帮助过我的学长们，谢谢你们充满耐心，不嫌麻烦的回答我的问题，没有你们也没有这个app，非常非常感谢学长们！
