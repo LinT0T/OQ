@@ -1,7 +1,7 @@
 # OQ
 ## OQ
 ---
-重要：GitHub上app\release中APP为最新版，其他版本有bug
+重要：GitHub上app\release中APP为最新版，其他版本有bug,建议下载使用
 ### 主要功能
 ---
 #### 登录界面
