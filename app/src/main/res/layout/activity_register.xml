@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/logo2"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="请输入用户名"
+        android:textSize="20dp"
+        android:background="@drawable/edt_user_login"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/people"
+        android:drawablePadding="10dp"
+        />
+
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:background="@drawable/edt_user_login"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/command"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/et_register_repassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="再次输入密码"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:background="@drawable/edt_user_login"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/command"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/et_register_save"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="紧急救援号（用于找回密码）"
+            android:textSize="20dp"
+            android:background="@drawable/edt_user_login"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/decoration_fill"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+</LinearLayout>
+
+</LinearLayout>

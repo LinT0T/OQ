@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".bihu.BiHuUserActivity"></activity>
+        <activity android:name=".bihu.QsActivity" />
+        <activity android:name=".bihu.BiHuStartActivity" />
+        <activity android:name=".bihu.MainBiHuActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".bihu.BiHuActivity" />
+        <activity android:name=".ChooseHeadActivity" />
+        <activity android:name=".LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgetActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MainViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DiscussActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".tuling.TulingMenuActivity" />
+        <activity android:name=".tuling.TulingChooseHeadActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_bh"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/mark"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="好友动态" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/address"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="附近"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/genie_calling"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="VTuber LIVE"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/marks"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="逛街" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/musiclist"
+            android:text="每日推荐"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/tips_money"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="氪金" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/calling_robort"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:text="OQ客服" />
+    </LinearLayout>
+
+</ScrollView>

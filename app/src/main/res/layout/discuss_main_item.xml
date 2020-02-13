@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        >
+
+    <com.example.qq.MyImageView
+        android:id="@+id/img_other_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/head_other"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        />
+
+
+
+        <TextView
+            android:id="@+id/tv_msg_other_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新年快乐"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/discuss_other_2"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:layout_gravity="right"
+        >
+        <TextView
+            android:id="@+id/tv_msg_me_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xnkl"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/discuss_me_2"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <com.example.qq.MyImageView
+            android:id="@+id/img_me_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/head_me"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="15dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

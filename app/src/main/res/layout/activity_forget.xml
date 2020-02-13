@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/logo2"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+        <EditText
+            android:id="@+id/et_help"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="请输入紧急救援号"
+            android:textSize="20dp"
+            android:background="@drawable/edt_user_login"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/decoration_fill"
+            android:drawablePadding="10dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login"
+            android:text="救命"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+</LinearLayout>

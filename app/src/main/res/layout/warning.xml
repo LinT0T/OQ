@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="警告"
+        android:textColor="#FF0000"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="此操作将会清空全部数据，并注销账号，再次使用需重新注册，是否确定？"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#FFC107"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sure_del"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:text="确定"
+            android:textColor="#fff"
+            android:textSize="23sp"/>
+
+        <Button
+            android:id="@+id/btn_no_del"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorBlue"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="23sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

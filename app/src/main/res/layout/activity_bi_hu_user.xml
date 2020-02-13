@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bihu"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+
+    <com.example.qq.MyImageView
+        android:id="@+id/img_bh_change_head"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/head_me" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_bh_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue"
+            android:text="修改密码"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_bh_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue"
+            android:text="返回"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+</LinearLayout>
