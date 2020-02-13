@@ -1,5 +1,7 @@
 # OQ
 ## OQ
+---
+重要：GitHub上app\release中APP为最新版，其他版本有bug
 ### 主要功能
 ---
 #### 登录界面
@@ -26,7 +28,7 @@
      
    点击可以进入聊天，聊天内容由图灵机器人实现。点击左上角头像可以进入设置页面，可以设置头像（头像图片会上传到七牛云），退出当前账号，删除当前账号
      
-![菜单界面](http://q59jhs5xi.bkt.clouddn.com/caidan.jpg)
+![菜单界面](http://q59jhs5xi.bkt.clouddn.com/aaa.jpg)
   
 ![聊天界面](http://q59jhs5xi.bkt.clouddn.com/hello.jpg)
      
@@ -47,7 +49,7 @@
  
   ![登录界面](http://q59jhs5xi.bkt.clouddn.com/逼乎开始.jpg)
  
- ![主界面](http://q59jhs5xi.bkt.clouddn.com/bihujiemian.jpg)
+ ![主界面](http://q59jhs5xi.bkt.clouddn.com/bbb.jpg)
  
  可以发布问题，修改密码
  
