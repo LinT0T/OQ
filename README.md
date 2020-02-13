@@ -30,6 +30,7 @@
      
 ![菜单界面](http://q59jhs5xi.bkt.clouddn.com/aaa.jpg)
   
+  
 ![聊天界面](http://q59jhs5xi.bkt.clouddn.com/hello.jpg)
      
    点击下方第二个按钮可以切换到联系人
@@ -49,11 +50,11 @@
  
   ![登录界面](http://q59jhs5xi.bkt.clouddn.com/逼乎开始.jpg)
  
- ![主界面](http://q59jhs5xi.bkt.clouddn.com/bbb.jpg)
+ ![主界面](http://q59jhs5xi.bkt.clouddn.com/bihujiemian.jpg)
  
  可以发布问题，修改密码
  
-  ![登录界面](http://q59jhs5xi.bkt.clouddn.com/bihubihu.jpg)
+  ![登录界面](http://q59jhs5xi.bkt.clouddn.com/bbb.jpg)
   
    ![登录界面](http://q59jhs5xi.bkt.clouddn.com/bihuaaa.jpg)
    
