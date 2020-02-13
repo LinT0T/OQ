@@ -3,24 +3,36 @@
 ### 主要功能
 ---
 #### 登录界面
- ![登录界面](http://q59jhs5xi.bkt.clouddn.com/main.jpg)
+ 启动OQ
+ 
+![启动](http://q59jhs5xi.bkt.clouddn.com/qidong.jpg)
+ 
+登陆界面
+
+![登录界面](http://q59jhs5xi.bkt.clouddn.com/main.jpg)
    
  可以进行注册，找回密码操作
    
- ![登录界面]( http://q59jhs5xi.bkt.clouddn.com/152351.jpg)
+ ![注册界面]( http://q59jhs5xi.bkt.clouddn.com/zhuce.jpg)
    
- ![登录界面](http://q59jhs5xi.bkt.clouddn.com/152434.jpg)
+ ![救援界面](http://q59jhs5xi.bkt.clouddn.com/152434.jpg)
+ 
  ---
  #### 主界面
  ![主界面](http://q59jhs5xi.bkt.clouddn.com/152600.jpg)
    
    右上角点击会出现菜单。
+   
      
    点击可以进入聊天，聊天内容由图灵机器人实现。点击左上角头像可以进入设置页面，可以设置头像（头像图片会上传到七牛云），退出当前账号，删除当前账号
      
+![菜单界面](http://q59jhs5xi.bkt.clouddn.com/caidan.jpg)
+  
+![聊天界面](http://q59jhs5xi.bkt.clouddn.com/hello.jpg)
+     
    点击下方第二个按钮可以切换到联系人
      
- ![主界面](http://q59jhs5xi.bkt.clouddn.com/friends.jpg)
+ ![联系人界面](http://q59jhs5xi.bkt.clouddn.com/friends.jpg)
  
  此处点击MIKU可以设置MIKU头像，清除聊天记录
  
@@ -33,11 +45,16 @@
  #### 逼乎
  登录后进入逼乎
  
- ![主界面](http://q59jhs5xi.bkt.clouddn.com/bihu.jpg)
+  ![登录界面](http://q59jhs5xi.bkt.clouddn.com/逼乎开始.jpg)
+ 
+ ![主界面](http://q59jhs5xi.bkt.clouddn.com/bihujiemian.jpg)
  
  可以发布问题，修改密码
  
- 
+  ![登录界面](http://q59jhs5xi.bkt.clouddn.com/bihubihu.jpg)
+  
+   ![登录界面](http://q59jhs5xi.bkt.clouddn.com/bihuaaa.jpg)
+   
 ---
 ### 主要技术
 - 图灵机器人
